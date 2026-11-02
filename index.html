@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 6</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Temirlan</h1>
+<h2>Welcome to My Portfolio</h2>
+<p id="greeting">Hello!</p>
+<p class="intro">I am an IT-2502 student. I am learning web development.</p>
+<button id="light">Light</button>
+<button id="dark">Dark</button>
+
+<h2>About Me</h2>
+<p>I study HTML, CSS and JavaScript.</p>
+<div id="facts">
+  <p>Currently learning jQuery!</p>
+  <p>I enjoy sports and cooking. My goal is to create websites.</p>
+</div>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="toggle">Toggle</button>
+
+<h2>My Projects</h2>
+<div id="gallery">
+  <a href="https://ya.ru"><img src="photos/yandex.svg" alt="Yandex" width="300"></a>
+  <a href="https://www.google.com"><img src="photos/google.png" alt="Google" width="300"></a>
+</div>
+<button id="fade-in">Fade In</button>
+<button id="fade-out">Fade Out</button>
+<button id="fade-toggle">Fade Toggle</button>
+
+<h2>My Favorites</h2>
+<h3 class="heading">Music</h3>
+<p class="panel">Pop music.</p>
+<h3 class="heading">Movies</h3>
+<p class="panel">Science fiction movies.</p>
+<h3 class="heading">Subject</h3>
+<p class="panel">Web development.</p>
+<button id="open-panels">Open All</button>
+<button id="close-panels">Close All</button>
+
+<h2>My Skills</h2>
+<ul id="skills">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>jQuery</li>
+</ul>
+<label for="new-skill">Skill:</label>
+<input id="new-skill" type="text">
+<button id="add-skill">Add Skill</button>
+<button id="prepend-skill">Prepend Skill</button>
+<button id="remove-skill">Remove Skill</button>
+
+<h2>My Link</h2>
+<a id="social-link" href="https://github.com/TemirlanDosDos">My GitHub</a>
+<button id="change-link">Change Link</button>
+
+<h2>Form</h2>
+<form id="contact-form">
+  <label for="name">Name:</label>
+  <input id="name" type="text">
+  <label for="email">Email:</label>
+  <input id="email" type="email">
+</form>
+<p>Name: <span id="name-preview"></span></p>
+<p>Email: <span id="email-preview"></span></p>
+
+<h2>Skill Bars</h2>
+<p>HTML</p>
+<div class="track"><div id="html-bar" class="bar"></div></div>
+<p>CSS</p>
+<div class="track"><div id="css-bar" class="bar"></div></div>
+<p>JavaScript</p>
+<div class="track"><div id="js-bar" class="bar"></div></div>
+<button id="animate-skills">Animate My Skills</button>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
